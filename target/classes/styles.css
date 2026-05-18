@@ -1,0 +1,56 @@
+.background {
+    -fx-background-image:url("https://t3.ftcdn.net/jpg/03/55/60/70/360_F_355607062_zYMS8jaz4SfoykpWz5oViRVKL32IabTP.jpg");
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+}
+.label-text {
+    -fx-text-fill: black;
+}
+
+.button-text {
+    -fx-text-fill: white;
+}
+.bold-text{
+    fx-font-weight: bold;
+}
+.button {
+    -fx-background-color: #4CAF50;  /* Green background */
+    -fx-text-fill: white;            /* White text color */
+    -fx-font-size: 14px;             /* Font size */
+    -fx-padding: 5px 5px;          /* Padding inside the button */
+    -fx-border-radius: 5px;         /* Rounded corners */
+    -fx-background-radius: 3px;     /* Rounded background */
+}
+
+.button:hover {
+    -fx-background-color: #45a049;  /* Darker green when hovered */
+}
+.table-view-background{
+    -fx-background-color:light grey;
+}
+
+/* Welcome message styling */
+.welcome-message {
+    -fx-font-size: 36px; /* Large text */
+    -fx-font-weight: bold; /* Bold text */
+    -fx-text-fill: #4CAF50; /* Green color */
+    -fx-alignment: center; /* Center the text */
+    -fx-padding: 20px; /* Add some padding around the text */
+}
+
+/* Other text styles */
+.label-text {
+    -fx-font-size: 14px;
+}
+
+.bold-text {
+    -fx-font-weight: bold;
+}
+
+.button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+}
+
