@@ -1,0 +1,4 @@
+--patch-module
+com.example.attendance_management=_
+--add-reads
+com.example.attendance_management=ALL-UNNAMED
